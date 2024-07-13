@@ -1,0 +1,19 @@
+{
+  "rewrites": [
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contac", "destination": "/contac.html" },
+    { "source": "/team", "destination": "/team.html" },
+    { "source": "/page", "destination": "/page.html" },
+    { "source": "/css/bootstrap.min.css", "destination": "/css/bootstrap.min.css" },
+    { "source": "/css/loading.css", "destination": "/css/loading.css" },
+    { "source": "/css/main.css", "destination": "/css/main.css" },
+    { "source": "/css/style.css", "destination": "/css/style.css" },
+    { "source": "/css/swiper-bundle.min.css", "destination": "/css/swiper-bundle.min.css" },
+    { "source": "/css/tex-emoji-styles.css", "destination": "/css/tex-emoji-styles.css" },
+    { "source": "/css/video-js", "destination": "/css/video-js" },
+    { "source": "/css/vjs-styles", "destination": "/css/vjs-styles" },
+    { "source": "/js/script.js", "destination": "/js/script.js" },
+    { "source": "/js/scriptv2.js", "destination": "/js/scriptv2.js" },
+    { "source": "/(.*)", "destination": "/$1.html" }
+  ]
+}
